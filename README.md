@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Quiosco App
 
-## Getting Started
+- Aplicación Realizada en Netx.JS 13
+- Implementando Prisma ORM 
+- TailwindCSS, para el estilizado
+- API Context
+- API Next.JS
+- MySQL como Base de Datos
 
-First, run the development server:
+Esto es un [Next.js](https://nextjs.org/) proyecto iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Intrucciones para el inicio de la app
+Primero, cree un archivo de variables de entorno
+
+*.env*
+
+dentro colocar la siguiente linea *DATABASE_URL=mysql://root:root@localhost:3306/quioscoapp*
+
+Segundo, ejecute el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -12,23 +26,21 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) con su navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Puede comenzar a editar la página modificando `app/page.js`. La página se actualiza automáticamente a medida que edita el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-## Learn More
+## Aprende más
 
-To learn more about Next.js, take a look at the following resources:
+Para obtener más información sobre Next.js, eche un vistazo a los siguientes recursos:
+- [Next.js Documentation](https://nextjs.org/docs) - Obtenga información sobre las funciones y la API de Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Puedes revisar [the Next.js GitHub repository](https://github.com/vercel/next.js/) - sus comentarios y contribuciones son bienvenidos!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Implementar en Vercel
+La forma más fácil de implementar su aplicación Next.js es usar el [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) De las creadores de Next.js.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Echa un vistazo a nuestra [Next.js deployment documentation](https://nextjs.org/docs/deployment) para más detalles..
